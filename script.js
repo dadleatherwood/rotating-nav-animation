@@ -1,6 +1,6 @@
 const open = document.getElementById('open')
-const closed = document.getElementById('close')
-const container = document.querySelector('.conatiner')
+const close = document.getElementById('close')
+const container = document.querySelector('.container')
 
 open.addEventListener('click', () => container.classList.add('show-nav'))
 
